@@ -4,6 +4,7 @@ package semanatercera;
 
 public class Estudiante {
     
+    //Datos del estudiante
     long carnet;
     String nombre,apellido;
     
