@@ -15,7 +15,7 @@ public class RegistroEstudiante {
         try{
             //Ingreso de los siguientes valores
             System.out.println("carnet del estudiante");
-            long carnet = long.parseLong(leer.readLine());
+            long  carnet = long.parseLong(leer.readLine());
             System.out.println("nombres del Estudiante");
             String nombres =leer.readLine();
             System.out.println("Apellido del Estudiante:");
@@ -25,6 +25,7 @@ public class RegistroEstudiante {
             est.setNombreEstudiante(nombres);
             est.setApellidoEstudiante(apellidos);
             
+            //RECUPERAR VALORES
             System.out.println("<<<Recuperando valores>>>");
             System.out.println("Carnet:" + est.getCarnetEstudiante());
             System.out.println("Nombre" + est.getNombreEstudiante());
